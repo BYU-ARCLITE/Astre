@@ -1,0 +1,19 @@
+@()
+
+@main("Activity Stream") {
+
+    <h1>Login</h1>
+    <form action="@routes.Application.login()" method="post">
+        <label for="username">Username</label>: <input type="text" name="username" id="username">
+        <label for="password">Password</label>: <input type="password" name="password" id="password">
+        <input type="submit" value="Login">
+    </form>
+
+    <h1>Signup</h1>
+    <form action="@routes.Application.signup()" method="post">
+        <label for="username2">Username</label>: <input type="text" name="username" id="username2">
+        <label for="password2">Password</label>: <input type="password" name="password" id="password2">
+        <label for="host">Host</label>: <input type="text" name="host" id="host">
+        <input type="submit" value="Create account">
+    </form>
+}
