@@ -5,7 +5,6 @@ import models.{Token, Account}
 import play.api.libs.json.{JsArray, JsBoolean, JsObject, Json}
 import businessLogic.{ActivityStreamLogic, ActivityStreamValidator, AccountLogic}
 import java.util.Date
-import com.twitter.util.Eval
 
 /**
  * Created with IntelliJ IDEA.
